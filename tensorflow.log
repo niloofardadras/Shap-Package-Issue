@@ -1,0 +1,125 @@
+tensorflow - WARNING - From C:/Users/nhossein/PycharmProjects/ShapExplain/1runtrain.py:547: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+tensorflow - INFO - Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002BA80F7AE48>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_train_distribute': None, '_eval_distribute': None, '_device_fn': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_tf_random_seed': 2478, '_save_summary_steps': 50, '_save_checkpoints_secs': None, '_log_step_count_steps': 100, '_protocol': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_save_checkpoints_steps': 50, '_keep_checkpoint_max': 300, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': 'C:\\Users\\nhossein\\PycharmProjects\\ShapExplain/checkpoints-Comp-count_1_weight-3'}
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+tensorflow - INFO - Calling model_fn.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column.py:205: NumericColumn._get_dense_tensor (from tensorflow.python.feature_column.feature_column_v2) is deprecated and will be removed after 2018-11-30.
+Instructions for updating:
+The old _FeatureColumn APIs are being deprecated. Please use the new FeatureColumn APIs instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column.py:2121: NumericColumn._transform_feature (from tensorflow.python.feature_column.feature_column_v2) is deprecated and will be removed after 2018-11-30.
+Instructions for updating:
+The old _FeatureColumn APIs are being deprecated. Please use the new FeatureColumn APIs instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column_v2.py:2703: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column.py:206: NumericColumn._variable_shape (from tensorflow.python.feature_column.feature_column_v2) is deprecated and will be removed after 2018-11-30.
+Instructions for updating:
+The old _FeatureColumn APIs are being deprecated. Please use the new FeatureColumn APIs instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column.py:205: IndicatorColumn._get_dense_tensor (from tensorflow.python.feature_column.feature_column_v2) is deprecated and will be removed after 2018-11-30.
+Instructions for updating:
+The old _FeatureColumn APIs are being deprecated. Please use the new FeatureColumn APIs instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column.py:2121: IndicatorColumn._transform_feature (from tensorflow.python.feature_column.feature_column_v2) is deprecated and will be removed after 2018-11-30.
+Instructions for updating:
+The old _FeatureColumn APIs are being deprecated. Please use the new FeatureColumn APIs instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column_v2.py:4295: HashedCategoricalColumn._get_sparse_tensors (from tensorflow.python.feature_column.feature_column_v2) is deprecated and will be removed after 2018-11-30.
+Instructions for updating:
+The old _FeatureColumn APIs are being deprecated. Please use the new FeatureColumn APIs instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column.py:2121: HashedCategoricalColumn._transform_feature (from tensorflow.python.feature_column.feature_column_v2) is deprecated and will be removed after 2018-11-30.
+Instructions for updating:
+The old _FeatureColumn APIs are being deprecated. Please use the new FeatureColumn APIs instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column_v2.py:4266: IndicatorColumn._variable_shape (from tensorflow.python.feature_column.feature_column_v2) is deprecated and will be removed after 2018-11-30.
+Instructions for updating:
+The old _FeatureColumn APIs are being deprecated. Please use the new FeatureColumn APIs instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\feature_column\feature_column_v2.py:4321: HashedCategoricalColumn._num_buckets (from tensorflow.python.feature_column.feature_column_v2) is deprecated and will be removed after 2018-11-30.
+Instructions for updating:
+The old _FeatureColumn APIs are being deprecated. Please use the new FeatureColumn APIs instead.
+tensorflow - WARNING - From C:/Users/nhossein/PycharmProjects/ShapExplain/1runtrain.py:390: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+tensorflow - WARNING - From C:/Users/nhossein/PycharmProjects/ShapExplain/1runtrain.py:401: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\keras\layers\core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\ops\metrics_impl.py:2176: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+tensorflow - INFO - Done calling model_fn.
+tensorflow - INFO - Create CheckpointSaverHook.
+tensorflow - INFO - Graph was finalized.
+tensorflow - INFO - Running local_init_op.
+tensorflow - INFO - Done running local_init_op.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+tensorflow - INFO - Saving checkpoints for 0 into C:\Users\nhossein\PycharmProjects\ShapExplain/checkpoints-Comp-count_1_weight-3\model.ckpt.
+tensorflow - INFO - train_accuracy = 0.48961794, train_precision = 0.4939875, train_recall = 0.85299003
+tensorflow - INFO - loss = 1.1930901, step = 1
+tensorflow - INFO - train_accuracy = 0.4968854, train_precision = 0.49689183, train_recall = 0.49792358 (3.380 sec)
+tensorflow - INFO - train_accuracy = 0.503876, train_precision = 0.5053681, train_recall = 0.3648948 (2.259 sec)
+tensorflow - INFO - train_accuracy = 0.5101744, train_precision = 0.51745015, train_recall = 0.30170265 (2.292 sec)
+tensorflow - INFO - train_accuracy = 0.51810634, train_precision = 0.5351613, train_recall = 0.2755814 (2.414 sec)
+tensorflow - INFO - Saving checkpoints for 50 into C:\Users\nhossein\PycharmProjects\ShapExplain/checkpoints-Comp-count_1_weight-3\model.ckpt.
+tensorflow - INFO - train_accuracy = 0.52505535, train_precision = 0.5534554, train_recall = 0.25941306 (2.640 sec)
+tensorflow - INFO - train_accuracy = 0.53197676, train_precision = 0.57177097, train_recall = 0.25474608 (2.386 sec)
+tensorflow - INFO - train_accuracy = 0.53914034, train_precision = 0.58980465, train_recall = 0.2570598 (1.869 sec)
+tensorflow - INFO - train_accuracy = 0.54535806, train_precision = 0.60572165, train_recall = 0.2598745 (1.908 sec)
+tensorflow - INFO - train_accuracy = 0.55157804, train_precision = 0.6203488, train_recall = 0.26586378 (2.363 sec)
+tensorflow - INFO - Saving checkpoints for 100 into C:\Users\nhossein\PycharmProjects\ShapExplain/checkpoints-Comp-count_1_weight-3\model.ckpt.
+tensorflow - INFO - global_step/sec: 4.15645
+tensorflow - INFO - train_accuracy = 0.55746, train_precision = 0.6331351, train_recall = 0.27325583 (2.550 sec)
+tensorflow - INFO - loss = 0.83506113, step = 101 (24.060 sec)
+tensorflow - INFO - train_accuracy = 0.56201553, train_precision = 0.6416825, train_recall = 0.28086933 (2.306 sec)
+tensorflow - INFO - train_accuracy = 0.5672438, train_precision = 0.65181017, train_recall = 0.2887171 (2.896 sec)
+tensorflow - INFO - train_accuracy = 0.57202184, train_precision = 0.66049707, train_recall = 0.29639298 (2.437 sec)
+tensorflow - INFO - train_accuracy = 0.576495, train_precision = 0.6679635, train_recall = 0.3042082 (2.473 sec)
+tensorflow - INFO - Saving checkpoints for 150 into C:\Users\nhossein\PycharmProjects\ShapExplain/checkpoints-Comp-count_1_weight-3\model.ckpt.
+tensorflow - INFO - train_accuracy = 0.58017546, train_precision = 0.67402816, train_recall = 0.3105274 (2.524 sec)
+tensorflow - INFO - train_accuracy = 0.5842046, train_precision = 0.6797747, train_recall = 0.31839946 (2.414 sec)
+tensorflow - INFO - train_accuracy = 0.58741695, train_precision = 0.68427193, train_recall = 0.3246124 (2.310 sec)
+tensorflow - INFO - train_accuracy = 0.59075016, train_precision = 0.68907106, train_recall = 0.33073965 (2.548 sec)
+tensorflow - INFO - train_accuracy = 0.59408224, train_precision = 0.69364905, train_recall = 0.33700165 (2.276 sec)
+tensorflow - INFO - Saving checkpoints for 200 into C:\Users\nhossein\PycharmProjects\ShapExplain/checkpoints-Comp-count_1_weight-3\model.ckpt.
+tensorflow - INFO - global_step/sec: 3.99121
+tensorflow - INFO - train_accuracy = 0.5969783, train_precision = 0.6971061, train_recall = 0.3429837 (2.872 sec)
+tensorflow - INFO - loss = 0.8017878, step = 201 (25.057 sec)
+tensorflow - INFO - train_accuracy = 0.599479, train_precision = 0.7001975, train_recall = 0.34793115 (2.372 sec)
+tensorflow - INFO - train_accuracy = 0.60215944, train_precision = 0.70361304, train_recall = 0.35302615 (2.463 sec)
+tensorflow - INFO - train_accuracy = 0.60413206, train_precision = 0.70558894, train_recall = 0.3573851 (2.277 sec)
+tensorflow - INFO - train_accuracy = 0.60641193, train_precision = 0.70833874, train_recall = 0.36179402 (2.365 sec)
+tensorflow - INFO - Saving checkpoints for 250 into C:\Users\nhossein\PycharmProjects\ShapExplain/checkpoints-Comp-count_1_weight-3\model.ckpt.
+tensorflow - INFO - train_accuracy = 0.6084526, train_precision = 0.7106864, train_recall = 0.36583185 (2.508 sec)
+tensorflow - INFO - train_accuracy = 0.6104805, train_precision = 0.71290535, train_recall = 0.3699397 (2.282 sec)
+tensorflow - INFO - train_accuracy = 0.6124229, train_precision = 0.7150721, train_recall = 0.37378383 (2.384 sec)
+tensorflow - INFO - train_accuracy = 0.6142027, train_precision = 0.7171486, train_recall = 0.37716234 (2.221 sec)
+tensorflow - INFO - train_accuracy = 0.61601603, train_precision = 0.7190195, train_recall = 0.38086933 (2.256 sec)
+tensorflow - INFO - Saving checkpoints for 300 into C:\Users\nhossein\PycharmProjects\ShapExplain/checkpoints-Comp-count_1_weight-3\model.ckpt.
+tensorflow - INFO - Loss for final step: 0.7864795.
+tensorflow - INFO - Calling model_fn.
+tensorflow - INFO - Done calling model_fn.
+tensorflow - INFO - Graph was finalized.
+tensorflow - WARNING - From C:\Anaconda3\envs\AzureEvn\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+tensorflow - INFO - Restoring parameters from C:\Users\nhossein\PycharmProjects\ShapExplain/checkpoints-Comp-count_1_weight-3\model.ckpt-300
+tensorflow - INFO - Running local_init_op.
+tensorflow - INFO - Done running local_init_op.
